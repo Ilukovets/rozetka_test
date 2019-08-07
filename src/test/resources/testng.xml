@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="allTests" >
+
+    <test name="Scenario" >
+        <classes>
+            <class name="tests.ScenarioTest">
+                <methods>
+                    <include name="scenario1"/>
+                    <include name="scenario2"/>
+                    <include name="scenario3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
